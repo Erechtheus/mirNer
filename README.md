@@ -20,7 +20,7 @@ And add the following dependenc
 	<dependency>
 	    <groupId>com.github.Erechtheus</groupId>
 	    <artifactId>mirNer</artifactId>
-	    <version>-SNAPSHOT</version>
+	    <version>master-SNAPSHOT</version>
 	</dependency>
 ```
 
