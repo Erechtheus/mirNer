@@ -15,29 +15,33 @@
             <version>4.8.1</version>
             <scope>test</scope>
         </dependency>
+    </dependencies>
 
 
     <!-- Used to compile the sources of your project. -->
-    <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <configuration>
-            <source>1.6</source>
-            <target>1.6</target>
-            <showDeprecation>true</showDeprecation>
-            <showWarnings>true</showWarnings>
-            <fork>true</fork>
-        </configuration>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                    <showDeprecation>true</showDeprecation>
+                    <showWarnings>true</showWarnings>
+                    <fork>true</fork>
+                </configuration>
 
-        <executions>
-            <execution>
-                <phase>compile</phase>
-                <goals>
-                    <goal>compile</goal>
-                </goals>
-            </execution>
-        </executions>
-    </plugin>
-
+                <executions>
+                    <execution>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>compile</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
