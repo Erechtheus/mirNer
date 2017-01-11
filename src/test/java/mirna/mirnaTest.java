@@ -1,8 +1,7 @@
 package mirna;
 
-import de.dkfi.lt.MiRNA;
-import de.dkfi.lt.MiRnaMention;
-import de.dkfi.lt.MirNer;
+import de.dfki.nlp.MiRnaMention;
+import de.dfki.nlp.MirNer;
 import junit.framework.Assert;
 import org.junit.Before;
 import org.junit.Test;
